@@ -1,0 +1,10 @@
+<body>
+   <h1>Monologue</h1>
+    <p>気ままな私の独り言や個人的考察。</p>
+    <div class= "contents">
+      <h3>一覧</h3>
+      <% @logues.each do |logue|%>
+      <p><%= logue.text %></p>
+      <% end %>
+    </div>
+</body>
